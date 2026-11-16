@@ -4,7 +4,12 @@ Welcome to Frost and Ember, an Ultima Online shard, a fork of Ultima: Memento by
 
 Come and say hello on our Discord: https://discord.gg/8rrFctabY
 
-**Downloads:** the Windows and Linux clients and the server package will be on the [Releases page](https://github.com/PopNotSoda2112/Frost-and-Ember/releases) soon.
+## Downloads
+
+Everything is on the [Releases page](https://github.com/PopNotSoda2112/Frost-and-Ember/releases). The first release is coming soon.
+
+- **Windows client** (`.zip`) and **Linux client** (`.tar.gz`): the TazUO launcher and client, with the shard's maps, artwork and music, ready to play.
+- **Server** for **Windows** (`.zip`) and **Linux** (`.tar.gz`): a fresh world, ready to host. See [Hosting your own server](#hosting-your-own-server) below.
 
 ---
 
@@ -32,6 +37,8 @@ I'll leave the rest for you to discover.
 4. At the login screen, type the username and password you want. If the account doesn't exist yet, the server creates it for you, so remember what you typed.
 
 The launcher keeps the TazUO client up to date by itself, so leave the `TazUO` folder to it and don't put your own files there. The shard's own maps, artwork and music are in the `Shared/GameData` folder, and the shard posts a new download when those change. If the launcher won't open, `Start-Client-Direct-Windows.cmd` or `Start-Client-Direct-Linux.sh` starts the game directly, without checking for updates.
+
+Two settings start out differently from a plain TazUO install. Click-to-walk pathfinding is off, and you can turn it on in TazUO's options if you like it. You talk to NPCs by double-clicking them, which you can switch off under **Double Click Talk** in `[help` → Preferences.
 
 ---
 
@@ -191,6 +198,14 @@ The shard's own spell schools, such as Elementalism, Death Knight, Holy Man and 
 
 ## Hosting your own server
 
-The server is free to download and run, for yourself or a group of friends. Get the server package from the Releases page; it runs on Windows directly and on Linux with Mono, and starts with a fresh world. Its README explains setup, the owner account, and how to point the client at your own server.
+The server is free to download and run, for yourself or for a group of friends. Get the server package from the Releases page; it starts with a fresh world, with every quest, town and dungeon in place and no characters.
+
+- **Windows:** it needs .NET Framework 4.8, which Windows 10 and 11 already include. Double-click `Start-Server.cmd`.
+- **Linux:** it needs Mono (the `mono-complete` package on most distributions). Run `./start-server.sh`.
+- **Network:** players connect on TCP port 2593, so open or forward that port to the server.
+- **Your owner account:** on the very first start, the server asks whether to create the owner account. Answer yes and choose a name and password before anyone logs in. Players' accounts are then created automatically the first time they log in.
+- **Pointing a client at your server:** set `"ip"` in the client's `Profiles/Settings/frost-and-ember.json` to your server's address.
+
+The server package's README covers saving, backups and changing the game's settings.
 
 See you in Sosaria.
