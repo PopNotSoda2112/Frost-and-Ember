@@ -50,9 +50,15 @@ Two settings start out differently from a plain TazUO install. Click-to-walk pat
 - **Extras:** you get **four picks** on top of your kit, such as additional gear, reagents and bandages. Weapon picks include a one-handed and a two-handed choice for each weapon skill.
 - **Every character also starts with** some gold, a knife, food and water, scissors, a candle, a blank book to write in, and a **Traveller's Primer**.
 
+![The Outfitter, where a new character chooses a starting kit and extras](images/outfitter.png)
+
+
 **The Traveller's Primer** lets you choose two different secondary skills below 50 and raises both to 50. It's bound to your character and is used up when you confirm.
 
 **Skills.** Press your Skills button or type `[skillbook` to open the **skills journal**, a two-page window with main skills on one side and secondary skills on the other. Each side has a running total. You can fold away skill groups, hide skills at 0, click the arrows to raise, lower or lock a skill, and click the gem beside a skill to use it. The classic skills window is still a click away. If its skill groups ever look wrong, click **Reset groups** in it; that resets the grouping only, not your skill values.
+
+![The skills journal](images/skills-journal.png)
+
 
 **The help window.** Type `[help` for the help window. It covers commands, settings, preferences and your treasury.
 
@@ -91,6 +97,9 @@ Two settings start out differently from a plain TazUO install. Click-to-walk pat
 - Choose **Repair** on a merchant, and a window lists everything you wear or carry that they can mend, with the price of each. Untick anything you want to leave, and the merchant will also tell you who can mend the rest. To pick one item instead, choose **Choose an item yourself**.
 - Repairs are paid from your backpack first, and then from your bank.
 
+![A merchant's repair window](images/repair.png)
+
+
 **Bard songs.** The ten buff songs cost no mana, cast in one second and last an hour. They are:
 - Fire, Ice, Poison and Energy Carol, each giving +8 to its resistance;
 - Knight's Minne, +8 physical;
@@ -119,6 +128,9 @@ Two settings start out differently from a plain TazUO install. Click-to-walk pat
 - Merchants identify things for **200 gold each**, paid from your backpack first and then your bank. Choose **Identify**, and a window lists everything in your backpack that they can appraise. Untick anything you want to leave, and they'll also tell you who can do the rest.
 - Merchants appraise by family, so you rarely need more than two stops. Smiths, tailors, leather and wood workers, jewellers, bards, provisioners and merchants handle all weapons, armour, clothing and jewellery. Mages, alchemists, herbalists, enchanters, sages and scribes handle potions, reagents, scrolls, wands and artefacts. Bankers, minters, provisioners and merchants value coins and trade goods, and sages, scribes and librarians decipher coded parchments.
 - **Every vendor will buy almost anything,** but they only pay a fair price for goods in their own trade. Anything else fetches a token amount, plus whatever its magic properties are worth. Guildmasters pay the full price for everything, so they're the best place to sell. Selling 100 gold or more to any vendor or guildmaster can train Mercantile, and so can buying.
+
+![A merchant's identify window](images/identify.png)
+
 
 ---
 
@@ -158,6 +170,9 @@ Two settings start out differently from a plain TazUO install. Click-to-walk pat
 - **Adventurer:** work in Difficult and Challenging dungeons.
 - **Perilous:** work against the strongest creatures in Hard and Deadly dungeons. You only see Perilous jobs once you've discovered a land that has those dungeons.
 - **Jobs and payment:** a job is a hunt, a purge or a recovery. Each one offers an optional Swift or Deathless challenge for a 25% bonus. When you've finished, choose your payment: gold, expedition supplies, or a treasure map.
+
+![The Royal Expeditionary Society's job board](images/society-requests.png)
+
 
 **The sailors' board** ("Seeking Brave Sailors") works the same way. Double-click it to choose from three townsfolk's requests, to collect your pay, or to see your current job.
 
