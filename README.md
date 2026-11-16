@@ -156,7 +156,7 @@ Two settings start out differently from a plain TazUO install. Click-to-walk pat
 - Your **bank items are shared too.** Whichever of your characters opens the bank sees everything your account has stored. The exception is items bound to one character, such as quest items, which stay with that character.
 - Bank vaults now hold 1000 items with no weight limits.
 
-**Housing.** Each account can own as many houses as it likes. Anything you drop on the floor of your own house stays there without being locked down, though you still lock items down to make them immovable or to use the homeowner tools on them.
+**Housing.** Each account can own as many houses as it likes.
 
 **Treasuries** let several accounts share one bank, gold and items alike, which suits friends or a guild pooling their wealth.
 - **Creating and inviting:** create one from the **Treasury** section of `[help`, then invite people by clicking one of their characters.
