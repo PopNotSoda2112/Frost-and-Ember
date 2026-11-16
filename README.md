@@ -145,6 +145,9 @@ Two settings start out differently from a plain TazUO install. Click-to-walk pat
 | 125 items | **Five skills at 100**, plus 3 Society job board jobs or 15 shoppe deliveries. |
 | 150 items | **Three skills at 110**, plus 10 dungeons discovered or 50 shoppe deliveries. |
 
+![Mara the backpack outfitter and her upgrade tasks](images/mara.png)
+
+
 **One bank for your whole account.**
 - Your bank gold is kept in an account ledger that all your characters share.
 - Your **bank items are shared too.** Whichever of your characters opens the bank sees everything your account has stored. The exception is items bound to one character, such as quest items, which stay with that character.
