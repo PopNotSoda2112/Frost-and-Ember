@@ -159,12 +159,15 @@ Two settings start out differently from a plain TazUO install. Click-to-walk pat
 **Housing.** Each account can own as many houses as it likes.
 
 **Treasuries** let several accounts share one bank, gold and items alike, which suits friends or a guild pooling their wealth.
+- **Whole accounts:** a treasury belongs to accounts, not single characters. When you create or join one, every character on your account shares it, so you can't put just one of your characters in and keep the rest out.
 - **Creating and inviting:** create one from the **Treasury** section of `[help`, then invite people by clicking one of their characters.
 - **Joining:** joining adds all your bank gold and items to the treasury.
 - **Leaving:** you take nothing with you, so only join a treasury you trust.
 - **Closing:** the owner can close the treasury at any time.
 - **Using the bank:** only one person can have the shared bank open at a time. Opening it closes it for anyone else.
-- **Privacy:** other members only ever see the one character you joined with.
+- **Privacy:** other members only ever see the one character you created or joined the treasury with. Your account's other characters stay private.
+
+Press the **Treasury** button in `[help` at any time for the full explanation of how treasuries work, along with the buttons to create, join, leave or close one.
 
 ---
 
