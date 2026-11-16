@@ -18,6 +18,7 @@ This is a long, hand-written quest line that runs through Britain, Lornmere, and
 - **Rewards.** These include a unique title on each route and a permanent boost to your secondary skill pool. The final foe also contains other goodies that players should find rewarding.
 - **The final confrontation** is a sealed boss fight built for skilled, well-equipped characters.
 - **Once you've finished,** you can walk the road again from the start.
+- **Original music.** A new dungeon on the questline has three pieces of music written entirely by Pop_NotSoda. You can also play them any time from the `[music` playlist, as "Frost and Ember - Ascension", "Frost and Ember - Confrontation" and "Frost and Ember - Transfiguration".
 
 I'll leave the rest for you to discover.
 
@@ -162,6 +163,15 @@ The launcher keeps the TazUO client up to date by itself, so leave the `TazUO` f
 
 ---
 
+## Spell bars and hotkeys
+
+The shard's own spell schools, such as Elementalism, Death Knight, Holy Man and bard songs, don't appear among TazUO's own spell icons or spell hotkeys. There are two easy ways to keep them at your fingertips instead.
+
+- **Spell bars:** type `[toolbars`, or open **Magic Toolbars** in `[help`. Each school has spell bars that you fill with the spells you want. A bar opens as a small strip of spell icons that you can drag anywhere and click to cast, and you can set it to open whenever you log in.
+- **Hotkeys:** every spell also has a command, such as `[EBolt` for Elemental Bolt, and spellbooks like the Elementalism, Death Knight and Holy Man books list them. In TazUO's options, create a macro with the **Say** action, type the command, and give the macro a key. Drag the macro onto the screen if you'd like a button for it as well.
+
+---
+
 ## Handy commands
 
 | Command | What it does |
@@ -174,6 +184,7 @@ The launcher keeps the TazUO client up to date by itself, so leave the `TazUO` f
 | `[TreasuryInvite` | Invite another player's account to your treasury (target one of their characters). |
 | `[TreasuryAccept` / `[TreasuryDecline` | Answer a treasury invitation. |
 | `[TreasuryLeave` | Leave your treasury. Your gold and items stay in it. |
+| `[toolbars` | Your spell bars: set them up, open them, or have them open when you log in. |
 | `[music` | The music playlist. Pick the songs you like, including three Frost and Ember tracks, and turn on **Use Playlist** to hear them as you travel. |
 
 ---
