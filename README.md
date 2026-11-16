@@ -30,7 +30,7 @@ I'll leave the rest for you to discover.
 3. Select **Ultima: Frost and Ember**, let any TazUO updates finish, and click **Play**.
 4. At the login screen, type the username and password you want. If the account doesn't exist yet, the server creates it for you, so remember what you typed.
 
-The launcher keeps the TazUO client up to date by itself. The shard's own maps, artwork and music are in the `Shared/GameData` folder, and the shard posts a new download when those change.
+The launcher keeps the TazUO client up to date by itself, so leave the `TazUO` folder to it and don't put your own files there. The shard's own maps, artwork and music are in the `Shared/GameData` folder, and the shard posts a new download when those change. If the launcher won't open, `Start-Client-Direct-Windows.cmd` or `Start-Client-Direct-Linux.sh` starts the game directly, without checking for updates.
 
 ---
 
@@ -44,7 +44,7 @@ The launcher keeps the TazUO client up to date by itself. The shard's own maps, 
 
 **The Traveller's Primer** lets you choose two different secondary skills below 50 and raises both to 50. It's bound to your character and is used up when you confirm.
 
-**Skills.** Press your Skills button or type `[skillbook` to open the **skills journal**, a two-page window with main skills on one side and secondary skills on the other. Each side has a running total. You can fold away skill groups, hide skills at 0, click the arrows to raise, lower or lock a skill, and click the gem beside a skill to use it. The classic skills window is still a click away.
+**Skills.** Press your Skills button or type `[skillbook` to open the **skills journal**, a two-page window with main skills on one side and secondary skills on the other. Each side has a running total. You can fold away skill groups, hide skills at 0, click the arrows to raise, lower or lock a skill, and click the gem beside a skill to use it. The classic skills window is still a click away. If its skill groups ever look wrong, click **Reset groups** in it; that resets the grouping only, not your skill values.
 
 **The help window.** Type `[help` for the help window. It covers commands, settings, preferences and your treasury.
 
