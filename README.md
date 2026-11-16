@@ -73,7 +73,10 @@ Two settings start out differently from a plain TazUO install. Click-to-walk pat
 - **Stat gains** have no waiting time between gains, but are more difficult to gain.
 - **NPCs can teach** secondary skills as well as main skills.
 - **Stealing, Snooping and Begging** are main skills, so they count toward your total skill cap.
-- **Humans** get a larger combined stat allowance as they level (up to +25), 250 Luck, and a 5-point higher maximum in every resistance.
+- **Humans** get a larger combined stat allowance as they level (up to +25), 250 Luck, and a 5-point higher maximum in every resistance. Every other race already had bonuses of its own, and Humans were the only one without any, so these give them their own reason to be chosen.
+
+![Choosing Human at the gypsy, with its three bonuses](images/human-race-bonuses.png)
+
 
 ---
 
