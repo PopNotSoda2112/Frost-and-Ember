@@ -36,7 +36,7 @@ The launcher keeps the TazUO client up to date by itself. The shard's own maps, 
 
 ## Getting started
 
-**Your first steps.** When you enter the world for the first time, you'll find an **outfitter's token** in your backpack. Double-click it to open the Outfitter, where you choose a starting kit and a few extras. If you close the window, double-clicking the token opens it again, and the token is used up when you confirm.
+**Your first steps.** Every new character begins in the Gypsy Forest, where the gypsy helps you choose where your story starts. When you enter the world for the first time, you'll find an **outfitter's token** in your backpack. Double-click it to open the Outfitter, where you choose a starting kit and a few extras. If you close the window, double-clicking the token opens it again, and the token is used up when you confirm.
 
 - **Kits:** Knight, Samurai, Ninja, Ranger, Rogue, Bard, Tamer, Artisan, Mage, Elementalist and Dark Arts. Each kit gives you the gear for its trade.
 - **Extras:** you get **four picks** on top of your kit, such as additional gear, reagents and bandages. Weapon picks include a one-handed and a two-handed choice for each weapon skill.
@@ -58,13 +58,14 @@ The launcher keeps the TazUO client up to date by itself. The shard's own maps, 
   - +25 for reading a rare **Tome of Forgotten Trades**, found on champion bosses and in level 5 or higher treasure chests.
 - **Stat gains** have no waiting time between gains, but are more difficult to gain.
 - **NPCs can teach** secondary skills as well as main skills.
+- **Stealing, Snooping and Begging** are main skills, so they count toward your total skill cap.
 - **Humans** get a larger combined stat allowance as they level (up to +25), 250 Luck, and a 5-point higher maximum in every resistance.
 
 ---
 
 ## Combat and defence
 
-**Resistances** cap at **70%** in each type, or 75% for Humans.
+**Resistances** cap at **70%** in each type, or 75% for Humans. Lower Reagent Cost can reach 100%.
 
 **Armour** is the main source of your resistances, and crafted armour is the best of it.
 - A plain starter suit gives roughly **12 physical** in leather, **17** in studded, **21** in ringmail and **30** in plate. Every armour piece also adds a little to each elemental resistance.
@@ -87,6 +88,8 @@ The launcher keeps the TazUO client up to date by itself. The shard's own maps, 
 - Knight's Minne, +8 physical;
 - Sinewy Etude, Shepherd's Dance and Enchanting Etude, +10 Strength, Dexterity and Intelligence respectively.
 
+**Instruments never wear out,** and songs use whichever instrument you're holding or carrying without asking you to pick one. Discordance, Provocation and Peacemaking are easier to land on tough creatures, and Provocation and Discordance recover in five seconds.
+
 ---
 
 ## Crafting and gathering
@@ -94,6 +97,7 @@ The launcher keeps the TazUO client up to date by itself. The shard's own maps, 
 - **Every recipe is available from the start.** You don't need to unlock anything with scrolls or quests; skill and materials are all you need.
 - **Tools** start with 150 uses and wear out as you use them. Tools, fishing poles, pickaxes and the like work straight from your backpack, so you don't need to equip them.
 - **Resource nodes are larger**, gathering yields more, and you can mine while mounted.
+- **Merchants don't sell crafting materials in bulk,** such as ingots, boards, leather and cloth, and the few resources they do sell cost six times the usual price. Gathering your own is the way to stock up.
 - **Shoppe orders** pay well, at roughly 3,200 gold or 1,500 points per order at 100 skill, and bigger at higher skill.
 
 ---
@@ -101,6 +105,8 @@ The launcher keeps the TazUO client up to date by itself. The shard's own maps, 
 ## Loot, gold and selling
 
 - **Loot drops as gold.** Copper, silver, gems and nuggets you already own convert to gold automatically. The Underworld's jewels and the crystals of the Mines of Morinia are still local currencies.
+- **Monsters carry less gold,** at most 2,000 per corpse, and ordinary animals such as rats, bats and cats carry none.
+- **Arcane gems** drop in fours.
 - **About 1 in 10 magic items drop unidentified.**
 - Merchants identify things for **200 gold each**, paid from your backpack first and then your bank. Choose **Identify**, and a window lists everything in your backpack that they can appraise. Untick anything you want to leave, and they'll also tell you who can do the rest.
 - Merchants appraise by family, so you rarely need more than two stops. Smiths, tailors, leather and wood workers, jewellers, bards, provisioners and merchants handle all weapons, armour, clothing and jewellery. Mages, alchemists, herbalists, enchanters, sages and scribes handle potions, reagents, scrolls, wands and artefacts. Bankers, minters, provisioners and merchants value coins and trade goods, and sages, scribes and librarians decipher coded parchments.
@@ -123,6 +129,8 @@ The launcher keeps the TazUO client up to date by itself. The shard's own maps, 
 - Your bank gold is kept in an account ledger that all your characters share.
 - Your **bank items are shared too.** Whichever of your characters opens the bank sees everything your account has stored. The exception is items bound to one character, such as quest items, which stay with that character.
 - Bank vaults now hold 1000 items with no weight limits.
+
+**Housing.** Each account can own as many houses as it likes. Anything you drop on the floor of your own house stays there without being locked down, though you still lock items down to make them immovable or to use the homeowner tools on them.
 
 **Treasuries** let several accounts share one bank, gold and items alike, which suits friends or a guild pooling their wealth.
 - **Creating and inviting:** create one from the **Treasury** section of `[help`, then invite people by clicking one of their characters.
