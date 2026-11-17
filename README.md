@@ -162,6 +162,9 @@ Two settings start out differently from a plain TazUO install. Click-to-walk pat
 
 ![Trade on another player's menu](images/trade-menu.png)
 
+
+![The gold window beside a trade, with a check for the gold in the trade window](images/trade-gold.png)
+
 ---
 
 ## Inventory and banking
