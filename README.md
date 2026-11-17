@@ -95,9 +95,35 @@ Two settings start out differently from a plain TazUO install. Click-to-walk pat
 - At 100 skill or more, **poison hits you one level weaker**, which makes you immune to Lesser poison.
 
 **Weapons, armour and shields** wear as they did in Memento.
-- Repairs restore an item to its remaining maximum. Repair potions permanently cost one point of maximum durability.
-- Smiths, tailors and leatherworkers will repair for **10 gold per point**. Any tailor, weaver, cobbler, tanner, fur trader or leather worker mends anything a tailor could, so cloth, leather and hide all go to the same shop.
-- Choose **Repair** on a merchant, and a window lists everything you wear or carry that they can mend, with the price of each. Untick anything you want to leave, and the merchant will also tell you who can mend the rest. To pick one item instead, choose **Choose an item yourself**.
+- **Repairs wear gear down,** so it pays to learn a craft or find a crafter. Every repair fills an item to its maximum, but may lower that maximum:
+
+| Who repairs | Maximum durability lost |
+|---|---|
+| A merchant | 1 for every 10 points mended. A **light repair** (under 10 points) has a 1 in 5 chance of costing 1. |
+| A player, or a repair contract | A **(100 − skill)%** chance of losing 1: 50% at 50 skill, 20% at 80, **none at 100**. |
+| A repair potion | Always 1. |
+
+  For example, a merchant takes a 0/50 sword to 45/45, while a crafter with 100 skill takes it to 50/50. Crafting skills come from the secondary skill pool, so any character can learn to mend their own gear.
+- **Crafters:** choose **Repair** in your crafting menu, and a window lists everything you wear or carry that your craft can mend, with your chance of losing maximum. Repairs never fail. To make a repair contract or pick one item, choose **Choose an item yourself**.
+- **Repairing for other players:** choose **Repair another player's gear** in that window, or target a player with **Repair**, and name your price per point of durability (0 for a friend). They see a list of their own damaged gear that your craft can mend, with each item's price and your chance of costing maximum durability, and untick anything they want to leave. When they accept, you repair it where it is, so nobody hands anything over. They pay from their backpack and then their bank, and the gold goes to your bank. Stay within 3 paces until they answer, and keep your tool on you (and a forge and anvil nearby for smithing). An offer lasts 5 minutes.
+
+![A crafter naming a price to repair another player's gear](images/repair-service-price.png)
+
+
+![The other player's window, listing their gear with prices](images/repair-service-offer.png)
+
+- Smiths, tailors and leatherworkers charge by what the item is, per point of durability:
+
+| Item | Gold per point |
+|---|---:|
+| Plain (bought, or crafted at normal quality, any metal or leather) | 3 |
+| Exceptional | 10 |
+| Magic (from loot, a runic tool or enchanting) | 20 |
+| Artifact | 30 |
+
+  Plain gear is cheap to keep up. Valuable gear is where a crafter saves you the most, in gold and in maximum durability.
+- Any tailor, weaver, cobbler, tanner, fur trader or leather worker mends anything a tailor could, so cloth, leather and hide all go to the same shop.
+- Choose **Repair** on a merchant, and a window lists everything you wear or carry that they can mend, with the price of each and the maximum durability it will cost. Untick anything you want to leave, and the merchant will also tell you who can mend the rest. To pick one item instead, choose **Choose an item yourself**.
 - Repairs are paid from your backpack first, and then from your bank.
 
 ![A merchant's repair window](images/repair.png)
@@ -165,7 +191,7 @@ Two settings start out differently from a plain TazUO install. Click-to-walk pat
 - **Leaving:** you take nothing with you, so only join a treasury you trust.
 - **Closing:** the owner can close the treasury at any time.
 - **Using the bank:** only one person can have the shared bank open at a time. Opening it closes it for anyone else.
-- **Privacy:** other members only ever see the one character you created or joined the treasury with. Your account's other characters stay private.
+- **Who's in it:** the Treasury section of `[help` lists everyone in your treasury, account by account. Each account is shown by the character that created or joined the treasury (for example "Aldric's account"), with all of that account's characters listed under it. Account names are never shown.
 
 Press the **Treasury** button in `[help` at any time for the full explanation of how treasuries work, along with the buttons to create, join, leave or close one.
 
