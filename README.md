@@ -151,9 +151,6 @@ Two settings start out differently from a plain TazUO install. Click-to-walk pat
 ## Loot, gold and selling
 
 - **Loot drops as gold.** Copper, silver, gems and nuggets you already own convert to gold automatically. The Underworld's jewels and the crystals of the Mines of Morinia are still local currencies.
-- **Monsters carry less gold,** at most 2,000 per corpse, and ordinary animals such as rats, bats and cats carry none.
-- **Arcane gems** drop in fours.
-- **About 1 in 10 magic items drop unidentified.**
 - Merchants identify things for **200 gold each**, paid from your backpack first and then your bank. Choose **Identify**, and a window lists everything in your backpack that they can appraise. Untick anything you want to leave, and they'll also tell you who can do the rest.
 - Merchants appraise by family, so you rarely need more than two stops. Smiths, tailors, leather and wood workers, jewellers, bards, provisioners and merchants handle all weapons, armour, clothing and jewellery. Mages, alchemists, herbalists, enchanters, sages and scribes handle potions, reagents, scrolls, wands and artefacts. Bankers, minters, provisioners and merchants value coins and trade goods, and sages, scribes and librarians decipher coded parchments.
 - **Every vendor will buy almost anything,** but they only pay a fair price for goods in their own trade. Anything else fetches a token amount, plus whatever its magic properties are worth. Guildmasters pay the full price for everything, so they're the best place to sell. Selling 100 gold or more to any vendor or guildmaster can train Mercantile, and so can buying.
