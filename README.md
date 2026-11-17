@@ -144,7 +144,7 @@ Two settings start out differently from a plain TazUO install. Click-to-walk pat
 - **Tools** start with 150 uses and wear out as you use them. Tools, fishing poles, pickaxes and the like work straight from your backpack, so you don't need to equip them.
 - **Resource nodes are larger**, gathering yields more, and you can mine while mounted.
 - **Merchants don't sell crafting materials in bulk,** such as ingots, boards, leather and cloth, and the few resources they do sell cost six times the usual price. Gathering your own is the way to stock up.
-- **Shoppe orders** pay well, at roughly 3,200 gold or 1,500 points per order at 100 skill, and bigger at higher skill.
+- **Shoppe orders** pay well, at roughly 3,200 gold or 1,500 points per order at 100 skill, and bigger at higher skill. New orders arrive every hour, up to 3 at a time.
 
 ---
 
@@ -157,6 +157,10 @@ Two settings start out differently from a plain TazUO install. Click-to-walk pat
 
 ![A merchant's identify window](images/identify.png)
 
+
+- **Trading gold:** to trade with another player, click them and choose **Trade**, type `[Trade` and target them, or drop an item on them. A gold window opens beside the trade window. It shows your own gold, in your backpack and your bank. Type what you want to give and press **Set**, and a check for that amount appears on your side of the trade, so you both see it. Your gold stays where it is until the trade completes, and if the trade is cancelled the check simply disappears. Setting an amount clears both checkmarks, so check the trade again before accepting. When you both accept, the gold comes from your backpack first and then your bank, and goes into the other player's bank.
+
+![Trade on another player's menu](images/trade-menu.png)
 
 ---
 
@@ -234,6 +238,7 @@ The shard's own spell schools, such as Elementalism, Death Knight, Holy Man and 
 | `[skillbook` | The skills journal. |
 | `[quests` | Your quest journal. |
 | `[BackpackProgress` | What your next backpack upgrade needs. |
+| `[Trade` | Open a trade with the player you target, for gold or items. |
 | `[TreasuryBalance` | The bank gold available to you. |
 | `[TreasuryInvite` | Invite another player's account to your treasury (target one of their characters). |
 | `[TreasuryAccept` / `[TreasuryDecline` | Answer a treasury invitation. |
