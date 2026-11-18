@@ -165,6 +165,13 @@ Two settings start out differently from a plain TazUO install. Click-to-walk pat
 
 ![The gold window beside a trade, with a check for the gold in the trade window](images/trade-gold.png)
 
+- **The marketplace:** double-click a Merchant Advertiser, or type `[Market`, to see everything for sale on players' vendors in one window. It works in towns and inns, in your own house, and beside an advertiser. Search by name, pick a kind of item, and sort by price or by what's newest. Hover over an item to see its details, and click it for the price, the shop and where it stands. You can buy straight from the window: the gold comes from your backpack and then your bank, and the item goes to your backpack, or to your bank if your backpack is full. You can buy part of a stack of resources, reagents, bandages or arrows, such as 100 of a vendor's 500 ingots, and you pay that share of the stack's price. Other stacks, such as food, are sold whole. To sell, stock and price items on your own vendor as usual, and they appear in the marketplace for everyone. You're told when something sells while you're online.
+
+![The marketplace, listing everything for sale on players' vendors](images/marketplace.png)
+
+
+![An item's page in the marketplace, where you choose how many to buy](images/marketplace-item.png)
+
 ---
 
 ## Inventory and banking
@@ -242,6 +249,7 @@ The shard's own spell schools, such as Elementalism, Death Knight, Holy Man and 
 | `[quests` | Your quest journal. |
 | `[BackpackProgress` | What your next backpack upgrade needs. |
 | `[Trade` | Open a trade with the player you target, for gold or items. |
+| `[Market` | The marketplace: everything for sale on players' vendors, to search and buy from. |
 | `[TreasuryBalance` | The bank gold available to you. |
 | `[TreasuryInvite` | Invite another player's account to your treasury (target one of their characters). |
 | `[TreasuryAccept` / `[TreasuryDecline` | Answer a treasury invitation. |
