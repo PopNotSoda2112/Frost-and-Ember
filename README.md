@@ -259,15 +259,6 @@ Press the **Treasury** button in `[help` at any time for the full explanation of
 
 ---
 
-## Spell bars and hotkeys
-
-The shard's own spell schools, such as Elementalism, Death Knight, Holy Man and bard songs, don't appear among TazUO's own spell icons or spell hotkeys. There are two easy ways to keep them at your fingertips instead.
-
-- **Spell bars:** type `[toolbars`, or open **Magic Toolbars** in `[help`. Each school has spell bars that you fill with the spells you want. A bar opens as a small strip of spell icons that you can drag anywhere and click to cast, and you can set it to open whenever you log in.
-- **Hotkeys:** every spell also has a command, such as `[EBolt` for Elemental Bolt, and spellbooks like the Elementalism, Death Knight and Holy Man books list them. In TazUO's options, create a macro with the **Say** action, type the command, and give the macro a key. Drag the macro onto the screen if you'd like a button for it as well.
-
----
-
 ## Handy commands
 
 | Command | What it does |
