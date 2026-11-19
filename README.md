@@ -17,16 +17,12 @@ Everything is on the [Releases page](https://github.com/PopNotSoda2112/Frost-and
 
 The village of Lornmere on the Serpent Island was frozen solid in a single night, people and all. The Crown's inquiry laid the blame on a company of adventurers from Sosaria, who were said to have disturbed unstable artefacts in some nearby ruins. In response, Lord British founded the Royal Expeditionary Society, which was charged with making sure that nothing like it could ever happen again. Its explorers and scholars survey ancient ruins, study what they recover and keep dangerous discoveries out of careless hands, all under the motto "Through knowledge, a safer tomorrow." Six years later, a new threat has emerged that could undo everything the Society was founded to protect.
 
-This is a long, hand-written quest line that runs through Britain, Lornmere, and other new areas. It starts on the roads near Britain and your quest journal (`[quests`) keeps track of every lead.
+This is a long, original quest line that runs through Britain, Lornmere, and other new areas. It starts on the roads near Britain and your quest journal (`[quests`) keeps track of every lead.
 
 - **Two routes.** An honest adventurer serves the Crown. A **wanted character**, such as a fugitive, murderer or other outlaw, is drawn instead into the service of a fixer at the Fort of Stonewall, and sees the same story from the other side. The routes share the ending but not the journey.
 - **Rewards.** These include a unique title on each route and a permanent boost to your secondary skill pool. The final foe also contains other goodies that players should find rewarding.
-- **The final confrontation** is a sealed boss fight built for skilled, well-equipped characters.
 - **Once you've finished,** you can walk the road again from the start.
 - **Original music.** A new dungeon on the questline has three pieces of music written entirely by Pop_NotSoda. You can also play them any time from the `[music` playlist, as "Frost and Ember - Ascension", "Frost and Ember - Confrontation" and "Frost and Ember - Transfiguration".
-
-I'll leave the rest for you to discover.
-
 ---
 
 ## Installing and playing
