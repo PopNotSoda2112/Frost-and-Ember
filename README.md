@@ -148,6 +148,34 @@ Two settings start out differently from a plain TazUO install. Click-to-walk pat
 
 ---
 
+## Food and cooking
+
+- **There's no hunger or thirst.** You never need to eat or drink, so there's nothing to keep topped up. A server's owner can turn hunger and thirst back on.
+- **Ordinary food is a snack.** Bread, fruit, cooked meat and the rest heal you up to your Tasting skill and restore 10 stamina, and with enough Tasting they may cure poison. You can have one snack every 30 seconds. Blood does the same for vampyres, and brains for zombis and the other brain eaters.
+- **Dishes that only player cooks can make** leave you **well fed**: you regain health, stamina and mana faster, and learn every skill a little faster. Merchants never sell them, and they never drop as loot.
+
+| Kind | Cooking skill | Health / stamina / mana regeneration | Skill gain |
+|---|---|---|---|
+| Hearty meal | 40 – 90 | +1 / +2 / +0 | +5% |
+| Fine dish | 60 – 110 | +1 / +2 / +1 | +10% |
+| Feast dish | 80 – 120 | +2 / +3 / +1 | +15% |
+
+- **Exceptional dishes** work like exceptional weapons and armour: each time you cook there's a chance of one, and it grows with your skill. A normal dish lasts 30 minutes; an exceptional one lasts 60 and doubles the regeneration. A grandmaster cook makes hearty meals exceptional three times in four, fine dishes about a third of the time, and feasts only once in 20. Power scrolls raise those chances.
+- **Tasting** makes the bonus last up to half as long again.
+- **One meal counts at a time.** A better dish replaces the one you're on, and a lesser one only tops up the time. The bonus survives death and logging out, and only counts down while you're playing. `[myhunger` shows how long you have left.
+- **The regeneration goes on top of your gear's cap,** so even a well-equipped character gains from eating.
+- **The dishes:**
+  - **Ordinary races:** hunter's stew, fisherman's chowder and apple-glazed ham (hearty); shepherd's pie, stuffed roast fowl and orchard tart (fine); royal roast pig, seafarer's platter and herb-crusted lamb roast (feast).
+  - **Vampyres:** Bloody Mary-nated Ribs, Bat Wing Buffalo Wings, and Blood Orange Soup, Hold the Orange.
+  - **Zombis, ghouls, wights and mind flayers:** Head Cheese, Food for Thought Pie and Grey Matter Gumbo.
+  - **Ents, reapers, fungals, shamblers and swamp things,** who drink theirs: Compost Tea, Root Beer (Actual Roots) and Photosynthesis Smoothie.
+  - **Skeletons, mummies, revenants and shadow demons,** who rub theirs on: Bone Appetit, Rattle-Free Joint Oil and Spa Day at the Crypt.
+  - The Cooking menu lists each one with its ingredients. Any cook can make any of them, so an ordinary cook can sell Head Cheese to zombi players.
+- **Human remains:** a heart or severed head carved from an innocent person is marked "Taken from an innocent". Cooking with one is a crime, just as carving it was: you lose karma, and the guards come for you. Outlaws' remains are fair game.
+- **Cooking helps with alchemy too:** your own Cooking and Tasting make the elixirs you drink last longer and grant more, and the mixtures you throw last longer and hit harder, with a chance of a second slime.
+
+---
+
 ## Loot, gold and selling
 
 - **Loot drops as gold.** Copper, silver, gems and nuggets you already own convert to gold automatically. The Underworld's jewels and the crystals of the Mines of Morinia are still local currencies.
@@ -250,6 +278,7 @@ The shard's own spell schools, such as Elementalism, Death Knight, Holy Man and 
 | `[BackpackProgress` | What your next backpack upgrade needs. |
 | `[Trade` | Open a trade with the player you target, for gold or items. |
 | `[Market` | The marketplace: every item for sale on every player-run vendor in the world, to search and buy from. |
+| `[myhunger` | Whether you're well fed from a cooked dish, and for how long. |
 | `[TreasuryBalance` | The bank gold available to you. |
 | `[TreasuryInvite` | Invite another player's account to your treasury (target one of their characters). |
 | `[TreasuryAccept` / `[TreasuryDecline` | Answer a treasury invitation. |
