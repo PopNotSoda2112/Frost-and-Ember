@@ -287,4 +287,12 @@ The server is free to download and run, for yourself or for a group of friends. 
 
 The server package's README covers saving, backups and changing the game's settings.
 
+---
+
+## Special thanks
+
+All hail **Djeryv**, **Mangar**, **Xork** and **Tsai**! Credit where credit is due. Frost and Ember exists because of their impressive groundwork, and it's built on Tsai's **Ultima: Memento**.
+
+Check out the great work over at Memento as well: https://discord.gg/eXAAjsRJA
+
 See you in Sosaria.
