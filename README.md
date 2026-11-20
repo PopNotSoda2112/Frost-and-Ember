@@ -177,7 +177,7 @@ Two settings start out differently from a plain TazUO install. Click-to-walk pat
 - **Loot drops as gold.** Copper, silver, gems and nuggets you already own convert to gold automatically. The Underworld's jewels and the crystals of the Mines of Morinia are still local currencies.
 - Merchants identify things for **200 gold each**, paid from your backpack first and then your bank. Choose **Identify**, and a window lists everything in your backpack that they can appraise. Untick anything you want to leave, and they'll also tell you who can do the rest.
 - Merchants appraise by family, so you rarely need more than two stops. Smiths, tailors, leather and wood workers, jewellers, bards, provisioners and merchants handle all weapons, armour, clothing and jewellery. Mages, alchemists, herbalists, enchanters, sages and scribes handle potions, reagents, scrolls, wands and artefacts. Bankers, minters, provisioners and merchants value coins and trade goods, and sages, scribes and librarians decipher coded parchments.
-- **Every vendor will buy almost anything,** but they only pay a fair price for goods in their own trade. Anything else fetches a token amount, plus whatever its magic properties are worth. Guildmasters pay the full price for everything, so they're the best place to sell. Selling 100 gold or more to any vendor or guildmaster can train Mercantile, and so can buying.
+- **Every vendor will buy almost anything,** but they only pay a fair price for goods in their own trade. Anything else fetches a token amount, plus whatever its magic properties are worth. Guildmasters pay the full price for everything, so they're the best place to sell. Body parts are the exception: only necromancers, witches and undertakers buy them. Valuables such as house and boat deeds and ethereal mounts only sell where they're traded, so take a boat deed to a shipwright and a house deed to a real estate broker. A soulstone that holds a skill never sells. Selling 100 gold or more to any vendor or guildmaster can train Mercantile, and so can buying.
 
 ![A merchant's identify window](images/identify.png)
 
@@ -200,7 +200,7 @@ Two settings start out differently from a plain TazUO install. Click-to-walk pat
 
 ## Inventory and banking
 
-**Items have no weight.** Instead, your **backpack holds a number of items**, starting at 50. Mara the outfitter, on the open floor of the public bank, offers permanent upgrades up to **150 items**. Type `[BackpackProgress` to see what you need next or speak with Mara.
+**Items have no weight.** Instead, your **backpack holds a number of items**, starting at 50. Everything in it counts, including what's inside bags. Mara the outfitter, on the open floor of the public bank, offers permanent upgrades up to **150 items**. Type `[BackpackProgress` to see what you need next or speak with Mara.
 
 | Backpack | What it takes |
 |---|---|
@@ -262,6 +262,8 @@ Press the **Treasury** button in `[help` at any time for the full explanation of
 | `[help` | The help window: settings, preferences, commands and your treasury. |
 | `[skillbook` | The skills journal. |
 | `[quests` | Your quest journal. |
+| `[c <message>` | World chat: say something to everyone online. `[chat` works too. |
+| `[g <message>` | Guild chat: say something to everyone in your guild. `[guild` works too. |
 | `[BackpackProgress` | What your next backpack upgrade needs. |
 | `[Trade` | Open a trade with the player you target, for gold or items. |
 | `[Market` | The marketplace: every item for sale on every player-run vendor in the world, to search and buy from. |
