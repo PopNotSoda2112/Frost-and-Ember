@@ -291,8 +291,14 @@ The server package's README covers saving, backups and changing the game's setti
 
 ## Special thanks
 
-All hail **Djeryv**, **Mangar**, **Xork** and **Tsai**! Credit where credit is due. Frost and Ember exists because of their impressive groundwork, and it's built on Tsai's **Ultima: Memento**.
+Big thanks to **Djeryv**, **Mangar**, **Xork** and **Tsai**. This project was only possible due to their hard work and dedication to Ruins & Riches and the subsequent forks.
 
-Check out the great work over at Memento as well: https://discord.gg/eXAAjsRJA
+If you would like to make your own fork, you have my full permission, including using the music that was created for this project. No need to ask!
 
-See you in Sosaria.
+I highly recommend checking out these other great and active forks as well:
+
+- **Memento:** https://discord.gg/eXAAjsRJA
+- **Secrets of Sosaria:** https://discord.gg/MBrRq323j
+- **Ultima: Hallowed Realms:** https://discord.gg/tmmE2HKbJ
+
+See you in Sosaria and beyond.
