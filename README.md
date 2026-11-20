@@ -6,7 +6,7 @@ Come and say hello on our Discord: https://discord.gg/8rrFctabY
 
 ## Downloads
 
-Everything is on the [Releases page](https://github.com/PopNotSoda2112/Frost-and-Ember/releases). The first release is coming soon.
+Download the latest version from the [Releases page](https://github.com/PopNotSoda2112/Frost-and-Ember/releases/latest).
 
 - **Windows client** (`.zip`) and **Linux client** (`.tar.gz`): the TazUO launcher and client, with the shard's maps, artwork and music, ready to play.
 - **Server** for **Windows** (`.zip`) and **Linux** (`.tar.gz`): a fresh world, ready to host. See [Hosting your own server](#hosting-your-own-server) below.
@@ -282,7 +282,7 @@ The server is free to download and run, for yourself or for a group of friends. 
 - **Windows:** it needs .NET Framework 4.8, which Windows 10 and 11 already include. Double-click `Start-Server.cmd`.
 - **Linux:** it needs Mono (the `mono-complete` package on most distributions). Run `./start-server.sh`.
 - **Network:** players connect on TCP port 2593, so open or forward that port to the server.
-- **Your owner account:** on the very first start, the server asks whether to create the owner account. Answer yes and choose a name and password before anyone logs in. Players' accounts are then created automatically the first time they log in.
+- **Your owner account:** run the very first start in a visible console window, because the server asks there whether to create the owner account. Answer yes and choose a name and a strong password before anyone logs in. The server also makes a ready-made admin character, Dungeon Master, on that account, and any other character you make on it is an ordinary player. Players' accounts are then created automatically the first time they log in.
 - **Pointing a client at your server:** set `"ip"` in the client's `Profiles/Settings/frost-and-ember.json` to your server's address.
 
 The server package's README covers saving, backups and changing the game's settings.
