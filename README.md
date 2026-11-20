@@ -293,7 +293,7 @@ The server package's README covers saving, backups and changing the game's setti
 
 Big thanks to **Djeryv**, **Mangar**, **Xork** and **Tsai**. This project was only possible due to their hard work and dedication to Ruins & Riches and the subsequent forks.
 
-If you would like to make your own fork, you have my full permission, including using the music that was created for this project. No need to ask!
+If you would like to make your own fork, or take anything from my fork, you have my full permission. That also includes using the original music that was created for this project. I want the R&R project to thrive as I believe it is the best way to play UO.
 
 I highly recommend checking out these other great and active forks as well:
 
