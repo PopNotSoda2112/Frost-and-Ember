@@ -22,7 +22,26 @@ This is a long, original quest line that runs through Britain, Lornmere, and oth
 - **Two routes.** An honest adventurer serves the Crown. A **wanted character**, such as a fugitive, murderer or other outlaw, is drawn instead into the service of a fixer at the Fort of Stonewall, and sees the same story from the other side. The routes share the ending but not the journey.
 - **Rewards.** These include a unique title on each route and a permanent boost to your secondary skill pool. The final foe also contains other goodies that players should find rewarding.
 - **Once you've finished,** you can walk the road again from the start.
+- **Quest items:** keep the story's quest items in your backpack itself, not in a bag, your bank or a Bag of Sending. They're only handed to you when your backpack has room, and if one goes missing late in the story, the character you report to can replace it.
 - **Original music.** A new dungeon on the questline has three pieces of music written entirely by Pop_NotSoda. You can also play them any time from the `[music` playlist, as "Frost and Ember - Ascension", "Frost and Ember - Confrontation" and "Frost and Ember - Transfiguration".
+
+---
+
+## Guiding principles
+
+My guiding principles for Frost and Ember:
+
+1. Open source, so the whole community can use it and build on it.
+2. Keep the general feel of Ruins & Riches.
+3. Add original content that carries the R&R project forward.
+4. Quality-of-life improvements that cut out mundane tasks and clicks for the sake of clicks, out of respect for players' time.
+5. Convenience is the player's choice: new conveniences that change how you play are settings you can switch on.
+6. Progression that feels gradual, smooth and rewarding.
+7. Balance that leans slightly in the player's favour.
+8. Encourage playing several characters on one account.
+9. Easy to host your own server.
+10. Listen to player feedback.
+
 ---
 
 ## Installing and playing
@@ -175,7 +194,7 @@ Two settings start out differently from a plain TazUO install. Click-to-walk pat
 ## Loot, gold and selling
 
 - **Loot drops as gold.** Copper, silver, gems and nuggets you already own convert to gold automatically. The Underworld's jewels and the crystals of the Mines of Morinia are still local currencies.
-- Merchants identify things for **200 gold each**, paid from your backpack first and then your bank. Choose **Identify**, and a window lists everything in your backpack that they can appraise. Untick anything you want to leave, and they'll also tell you who can do the rest.
+- Merchants identify things for **200 gold each**, paid from your backpack first and then your bank. Choose **Identify**, and a window lists everything in your backpack that they can appraise. Untick anything you want to leave, and they'll also tell you who can do the rest. You can also identify things yourself with Mercantile, Arms Lore or Tasting. Use the skill on a bag to try everything in it, or switch on Auto Identify in `[help` → Settings.
 - Merchants appraise by family, so you rarely need more than two stops. Smiths, tailors, leather and wood workers, jewellers, bards, provisioners and merchants handle all weapons, armour, clothing and jewellery. Mages, alchemists, herbalists, enchanters, sages and scribes handle potions, reagents, scrolls, wands and artefacts. Bankers, minters, provisioners and merchants value coins and trade goods, and sages, scribes and librarians decipher coded parchments.
 - **Every vendor will buy almost anything,** but they only pay a fair price for goods in their own trade. Anything else fetches a token amount, plus whatever its magic properties are worth. Guildmasters pay the full price for everything, so they're the best place to sell. Body parts are the exception: only necromancers, witches and undertakers buy them. Valuables such as house and boat deeds and ethereal mounts only sell where they're traded, so take a boat deed to a shipwright and a house deed to a real estate broker. A soulstone that holds a skill never sells. Selling 100 gold or more to any vendor or guildmaster can train Mercantile, and so can buying.
 
@@ -286,6 +305,7 @@ The server is free to download and run, for yourself or for a group of friends. 
 - **Network:** players connect on TCP port 2593, so open or forward that port to the server.
 - **Your owner account:** run the very first start in a visible console window, because the server asks there whether to create the owner account. Answer yes and choose a name and a strong password before anyone logs in. The server also makes a ready-made admin character, Dungeon Master, on that account, and any other character you make on it is an ordinary player. Players' accounts are then created automatically the first time they log in.
 - **Pointing a client at your server:** set `"ip"` in the client's `Profiles/Settings/frost-and-ember.json` to your server's address.
+- **Updating:** when a new version comes out, replace the server's files but keep your `Saves` folder and your own `Info/Scripts/Settings.cs`.
 
 The server package's README covers saving, backups and changing the game's settings.
 
