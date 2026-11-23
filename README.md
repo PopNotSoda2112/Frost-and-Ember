@@ -85,6 +85,8 @@ Two settings start out differently from a plain TazUO install. Click-to-walk pat
   - +50 for completing the Frost and Ember story;
   - +25 the first time three secondary skills reach 100;
   - +25 for reading a rare **Tome of Forgotten Trades**, found on champion bosses and in level 5 or higher treasure chests.
+- **Rested bonus.** While you actively play one character, your other characters on the same account rest, banking 1.0 skill point of rest an hour, up to 5.0. A rested character's skill gains each give an extra 0.1 until the rest is used up, within the usual skill caps. Standing idle for more than 10 minutes doesn't count, and you can turn it off in `[help` → Settings to save your rest for later.
+- **Shared Moongates.** Switch this on in `[help` → Settings and a character's moongates also lead to the lands your other characters on the same account have discovered. The Bottle World of Kuldar and the Black Knight's Vault still need the character's own discovery, because a character can be stranded there. Avatar characters and evil monster races only use their own discoveries.
 - **Stat gains** have no waiting time between gains, but are more difficult to gain.
 - **NPCs can teach** secondary skills as well as main skills.
 - **Stealing, Snooping and Begging** are main skills, so they count toward your total skill cap.
@@ -194,7 +196,7 @@ Two settings start out differently from a plain TazUO install. Click-to-walk pat
 ## Loot, gold and selling
 
 - **Loot drops as gold.** Copper, silver, gems and nuggets you already own convert to gold automatically. The Underworld's jewels and the crystals of the Mines of Morinia are still local currencies.
-- Merchants identify things for **200 gold each**, paid from your backpack first and then your bank. Choose **Identify**, and a window lists everything in your backpack that they can appraise. Untick anything you want to leave, and they'll also tell you who can do the rest. You can also identify things yourself with Mercantile, Arms Lore or Tasting. Use the skill on a bag to try everything in it, or switch on Auto Identify in `[help` → Settings.
+- Merchants identify things for **200 gold each**, paid from your backpack first and then your bank. Choose **Identify**, and a window lists everything in your backpack that they can appraise. Untick anything you want to leave, and they'll also tell you who can do the rest. You can also identify things yourself with Mercantile, Arms Lore or Tasting. Use the skill on a bag to try everything in it, or switch on Auto Identify in `[help` → Settings. Relics, such as paintings and vases, have their own Auto Identify setting, because a failed attempt leaves them nearly worthless.
 - Merchants appraise by family, so you rarely need more than two stops. Smiths, tailors, leather and wood workers, jewellers, bards, provisioners and merchants handle all weapons, armour, clothing and jewellery. Mages, alchemists, herbalists, enchanters, sages and scribes handle potions, reagents, scrolls, wands and artefacts. Bankers, minters, provisioners and merchants value coins and trade goods, and sages, scribes and librarians decipher coded parchments.
 - **Every vendor will buy almost anything,** but they only pay a fair price for goods in their own trade. Anything else fetches a token amount, plus whatever its magic properties are worth. Guildmasters pay the full price for everything, so they're the best place to sell. Body parts are the exception: only necromancers, witches and undertakers buy them. Valuables such as house and boat deeds and ethereal mounts only sell where they're traded, so take a boat deed to a shipwright and a house deed to a real estate broker. A soulstone that holds a skill never sells. Selling 100 gold or more to any vendor or guildmaster can train Mercantile, and so can buying.
 
@@ -230,6 +232,8 @@ Two settings start out differently from a plain TazUO install. Click-to-walk pat
 
 ![Mara the backpack outfitter and her upgrade tasks](images/mara.png)
 
+
+**Keeping things safe.** Type `[keep`, or press **Keep Items** in any crafting window, then choose the things you want to hold on to. Merchants won't offer to buy a kept item, and it can't be broken down, cut up or thrown away by mistake. Choose a bag, or your backpack, to keep everything in it. Choose a kept item again to stop keeping it, and press Escape when you're done. Kept items say "Kept" on their tooltip, and merchants and other characters won't take one if you hand it to them. Once a kept item leaves your backpack, your bank or what you're wearing, such as when you drop it, trade it or put it in a house chest, it's no longer kept, so choose it again when you pick it back up. Keeping isn't blessing: a kept item still drops when you die, and crafting can still use kept materials.
 
 **One bank for your whole account.**
 - Your bank gold is kept in an account ledger that all your characters share.
@@ -269,7 +273,7 @@ Press the **Treasury** button in `[help` at any time for the full explanation of
 
 ## Travel
 
-- **Mark** works in most locations now, except for dungeons, Skara Brae, Bottles and a few other places.
+- **Mark** works in most locations now, except for dungeons, Skara Brae, Bottles and a few other places. Recall, Mark, Elemental Void and Elemental Rune scrolls work at any skill, so anyone can mark a rune and travel to it with them.
 - Everything else about travel works as you'd expect.
 
 ---
@@ -285,6 +289,7 @@ Press the **Treasury** button in `[help` at any time for the full explanation of
 | `[g <message>` | Guild chat: say something to everyone in your guild. `[guild` works too. |
 | `[BackpackProgress` | What your next backpack upgrade needs. |
 | `[Trade` | Open a trade with the player you target, for gold or items. |
+| `[keep` | Choose items to keep safe from selling, breaking down and throwing away. |
 | `[Market` | The marketplace: every item for sale on every player-run vendor in the world, to search and buy from. |
 | `[myhunger` | Whether you're well fed from a cooked dish, and for how long. |
 | `[TreasuryBalance` | The bank gold available to you. |
