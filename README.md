@@ -40,7 +40,7 @@ My guiding principles for Frost and Ember:
 7. Balance that leans slightly in the player's favour.
 8. Encourage playing several characters on one account.
 9. Easy to host your own server.
-10. Listen to player feedback.
+10. Take player feedback into consideration.
 
 ---
 
