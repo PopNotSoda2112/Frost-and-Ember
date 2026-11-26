@@ -70,6 +70,8 @@ Two settings start out differently from a plain TazUO install. Click-to-walk pat
 
 **The Traveller's Primer** lets you choose two different secondary skills below 50 and raises both to 50. It's bound to your character and is used up when you confirm.
 
+Characters who choose The Star are the exception, and begin without a token, a Traveller's Primer or gold.
+
 **Skills.** Press your Skills button or type `[skillbook` to open the **skills journal**, a two-page window with main skills on one side and secondary skills on the other. Each side has a running total. You can fold away skill groups, hide skills at 0, click the arrows to raise, lower or lock a skill, and click the gem beside a skill to use it. The classic skills window is still a click away. If its skill groups ever look wrong, click **Reset groups** in it; that resets the grouping only, not your skill values.
 
 ![The skills journal](images/skills-journal.png)
@@ -85,6 +87,7 @@ Two settings start out differently from a plain TazUO install. Click-to-walk pat
   - +50 for completing the Frost and Ember story;
   - +25 the first time three secondary skills reach 100;
   - +25 for reading a rare **Tome of Forgotten Trades**, found on champion bosses and in level 5 or higher treasure chests.
+  Aliens have a pool of **2,000 points** instead, enough to grandmaster all twenty, so these bonuses don't apply to them.
 - **Rested bonus.** While you actively play one character, your other characters on the same account rest, banking 1.0 skill point of rest an hour, up to 5.0. A rested character's skill gains each give an extra 0.1 until the rest is used up, within the usual skill caps. Standing idle for more than 10 minutes doesn't count, and you can turn it off in `[help` → Settings to save your rest for later.
 - **Shared Moongates.** Switch this on in `[help` → Settings and a character's moongates also lead to the lands your other characters on the same account have discovered. The Bottle World of Kuldar and the Black Knight's Vault still need the character's own discovery, because a character can be stranded there. Avatar characters and evil monster races only use their own discoveries.
 - **Stat gains** have no waiting time between gains, but are more difficult to gain.
@@ -202,6 +205,7 @@ Two settings start out differently from a plain TazUO install. Click-to-walk pat
 
 ![A merchant's identify window](images/identify.png)
 
+- **Black markets:** many merchants have a **Black Market** option with rare-material goods from their trade. Magic merchants also keep small lots of hard-to-find scrolls, brews and potions, and herbalists keep rare plants. Their stock changes at each restock, and scrolls bought this way can't be added to a spellbook.
 
 - **Trading gold:** to trade with another player, click them and choose **Trade**, type `[Trade` and target them, or drop an item on them. A gold window opens beside the trade window. It shows your own gold, in your backpack and your bank. Type what you want to give and press **Set**, and a check for that amount appears on your side of the trade, so you both see it. Your gold stays where it is until the trade completes, and if the trade is cancelled the check simply disappears. Setting an amount clears both checkmarks, so check the trade again before accepting. When you both accept, the gold comes from your backpack first and then your bank, and goes into the other player's bank.
 
@@ -210,7 +214,7 @@ Two settings start out differently from a plain TazUO install. Click-to-walk pat
 
 ![The gold window beside a trade, with a check for the gold in the trade window](images/trade-gold.png)
 
-- **The marketplace:** double-click a Merchant Advertiser board, or type `[Market`, to open the marketplace. It shows every item for sale on every player-run vendor in the world, all in one window, so you can shop without visiting each vendor. The one exception: Avatar characters see only other Avatar characters' shops, and permadeath characters see only other permadeath characters' shops. It works in towns and inns, in your own house, and beside a Merchant Advertiser board. Search by name, pick a kind of item, and sort by price or by what's newest. Hover over an item to see its details, and click it for the price, the shop and where it stands. You can buy straight from the window: the gold comes from your backpack and then your bank, and the item goes to your backpack, or to your bank if your backpack is full. You can buy part of a stack of resources, reagents, bandages or arrows, such as 100 of a vendor's 500 ingots, and you pay that share of the stack's price. Other stacks, such as food, are sold whole. To sell, stock and price items on your own vendor as usual, and they appear in the marketplace for everyone. You're told when something sells while you're online.
+- **The marketplace:** double-click a Merchant Advertiser board, or type `[Market`, to open the marketplace. It shows every item for sale on every player-run vendor in the world, all in one window, so you can shop without visiting each vendor. The one exception: Avatar characters see only other Avatar characters' shops, and permadeath characters see only other permadeath characters' shops. It works anywhere in a town, including its inns and banks, and in your own house. Search by name, pick a kind of item, and sort by price or by what's newest. Hover over an item to see its details, and click it for the price, the shop and where it stands. You can buy straight from the window: the gold comes from your backpack and then your bank, and the item goes to your backpack, or to your bank if your backpack is full. You can buy part of a stack of resources, reagents, bandages or arrows, such as 100 of a vendor's 500 ingots, and you pay that share of the stack's price. Other stacks, such as food, are sold whole. To sell, stock and price items on your own vendor as usual, and they appear in the marketplace for everyone. You're told when something sells while you're online.
 
 ![The marketplace, listing everything for sale on players' vendors](images/marketplace.png)
 
