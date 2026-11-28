@@ -205,6 +205,7 @@ Characters who choose The Star are the exception, and begin without a token, a T
 
 ![A merchant's identify window](images/identify.png)
 
+- **Selling a container:** drop a bag or other container on a merchant, and a sell window lists everything inside that they'll buy, already ticked. Untick anything you want to keep, then press Sell. You can switch to the classic sell window in `[help` → Container Sell.
 - **Black markets:** many merchants have a **Black Market** option with rare-material goods from their trade. Magic merchants also keep small lots of hard-to-find scrolls, brews and potions, and herbalists keep rare plants. Their stock changes at each restock, and scrolls bought this way can't be added to a spellbook.
 
 - **Trading gold:** to trade with another player, click them and choose **Trade**, type `[Trade` and target them, or drop an item on them. A gold window opens beside the trade window. It shows your own gold, in your backpack and your bank. Type what you want to give and press **Set**, and a check for that amount appears on your side of the trade, so you both see it. Your gold stays where it is until the trade completes, and if the trade is cancelled the check simply disappears. Setting an amount clears both checkmarks, so check the trade again before accepting. When you both accept, the gold comes from your backpack first and then your bank, and goes into the other player's bank.
